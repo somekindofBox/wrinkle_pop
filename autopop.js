@@ -13,7 +13,7 @@ var loadJS = function(url, implementationCode, location){
 };
 
 loadJS('https://github.com/somekindofBox/wrinkle_pop/mousetrap.js', function(){
-    Mousetrap.bind('space',
+    Mousetrap.bind('p',
         function(e){
             for(let w of Game.wrinklers){
                 if(w.type === 0) w.hp = -10;
